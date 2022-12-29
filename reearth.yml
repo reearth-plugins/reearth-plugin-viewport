@@ -1,0 +1,8 @@
+id: reearth-plugin-viewport
+name: Viewport
+version: 0.1.0
+extensions:
+  - id: viewport
+    type: widget
+    name: Viewport
+    title: Viewport
