@@ -524,17 +524,18 @@ reearth.ui.show(`
     float: left;
   }
   span.maru-1 {
-    font-size: 5px;
-    top: 3px;
+    font-size: 10px;
+    top: 5px;
     position: relative;
     right: calc(50% - 49px);
   }
   span.maru-2 {
-    font-size: 5px;
-    top: 3px;
+    font-size: 10px;
+    top: -26px;
     position: relative;
     left: calc(50% + 17px);
   }
+
   .child-form-gr:last-child .input-title {
     margin-left: 5px;
     margin-right: 5px;
@@ -680,13 +681,13 @@ reearth.ui.show(`
             <label class="input-title">回転</label>
             <input type="number" class="vp-heading input-heading" onchange="changeInput(this)" id="vp-heading" name="viewport[temp][vp-heading]" 
               value="0" placeholder="0" min="0"/>
-            <span class="maru-1">◯</span>
+            <span class="maru-1">度</span>
           </div>
             <div class="child-form-gr">
               <label class="input-title">傾き</label>
               <input type="number" class="vp-pitch input-heading" onchange="changeInput(this)" id="vp-pitch" name="viewport[temp][vp-pitch]" 
                 value="0" placeholder="0" min="0"/>
-              <span class="maru-2">◯</span>
+              <span class="maru-2">度</span>
             </div>
           </div>
           <div class="form-group">
@@ -1070,7 +1071,6 @@ reearth.ui.show(`
           uri: "https://eukarya-inc.github.io/reearth-plugin-viewport/src/viewport.glb",
           gltf: "https://eukarya-inc.github.io/reearth-plugin-viewport/src/viewport.glb",
           scale: vpDistance,
-          maximumScale: 20000,
           color:  { "rgba" : convertHex(vpColor,(Number(vpTransparent)*255/100)) },
           colorBlendMode:"REPLACE",
           colorBlendAmount: 0.5,
@@ -1164,7 +1164,6 @@ reearth.ui.show(`
                 uri: "https://eukarya-inc.github.io/reearth-plugin-viewport/src/viewport.glb",
                 gltf: "https://eukarya-inc.github.io/reearth-plugin-viewport/src/viewport.glb",
                 scale: vpDistance,
-                maximumScale: 20000,
                 color:  { "rgba" : convertHex(vpColor,(Number(vpTransparent) * 255 / 100)) },
                 colorBlendMode: "REPLACE",
                 colorBlendAmount: 0.5,
