@@ -11,6 +11,7 @@
 ![](https://eukarya-inc.github.io/reearth-plugin-viewport/src/viewport1.png)
 - 地図上左上のアイコン（上図での赤枠部分）をクリックして、ビューポートの作成画面を開きます。
 - 「ビューポートの追加」をクリックし、マップ上のビューポートを設置したい箇所を左クリックするとビューポートを設置できます。
+
 ![](https://eukarya-inc.github.io/reearth-plugin-viewport/src/viewport2.png)
 - 初期設定ではビューポートは高さ1.6m、北方向10mに向かって表示されます。プラグインのメニューから、任意の高さ・距離・上下左右の角度・色・透過度の調整ができます。また、削除ボタンで描いたパスを削除できます。
   
