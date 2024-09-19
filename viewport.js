@@ -1068,8 +1068,8 @@ reearth.ui.show(`
           unitQuaternion: [ orientation.x, orientation.y, orientation.z, orientation.w ]
         },
         model: {
-          uri: "https://github.com/reearth-plugins/reearth-plugin-viewport/blob/main/src/viewport.glb",
-          gltf: "https://github.com/reearth-plugins/reearth-plugin-viewport/blob/main/src/viewport.glb",
+          uri: "https://raw.githubusercontent.com/reearth-plugins/reearth-plugin-viewport/main/src/viewport.glb",
+          gltf: "https://raw.githubusercontent.com/reearth-plugins/reearth-plugin-viewport/main/src/viewport.glb",
           scale: vpDistance,
           color:  { "rgba" : convertHex(vpColor,(Number(vpTransparent)*255/100)) },
           colorBlendMode:"REPLACE",
@@ -1084,7 +1084,7 @@ reearth.ui.show(`
         id: "Icon" + vpIndex,
         name: "ViewportIcon" + " " + vpIndex,
         billboard: {
-          image: "https://eukarya-inc.github.io/reearth-plugin-viewport/src/viewport-icon.png",
+          image: "https://raw.githubusercontent.com/reearth-plugins/reearth-plugin-viewport/main/src/viewport-icon.png",
           heightReference: "RELATIVE_TO_GROUND",
         },
         position: {
@@ -1161,8 +1161,8 @@ reearth.ui.show(`
                 unitQuaternion: [ orientation.x, orientation.y, orientation.z, orientation.w ]
               },
               model: {
-                uri: "https://github.com/reearth-plugins/reearth-plugin-viewport/blob/main/src/viewport.glb",
-                gltf: "https://github.com/reearth-plugins/reearth-plugin-viewport/blob/main/src/viewport.glb",
+                uri: "https://raw.githubusercontent.com/reearth-plugins/reearth-plugin-viewport/main/src/viewport.glb",
+                gltf: "https://raw.githubusercontent.com/reearth-plugins/reearth-plugin-viewport/main/src/viewport.glb",
                 scale: vpDistance,
                 color:  { "rgba" : convertHex(vpColor,(Number(vpTransparent) * 255 / 100)) },
                 colorBlendMode: "REPLACE",
@@ -1177,7 +1177,7 @@ reearth.ui.show(`
               id: "Icon" + vpId,
               name: "ViewportIcon" + " " + vpId,
               billboard: {
-                image: "https://eukarya-inc.github.io/reearth-plugin-viewport/src/viewport-icon.png",
+                image: "https://raw.githubusercontent.com/reearth-plugins/reearth-plugin-viewport/main/src/viewport-icon.png",
                 heightReference: "RELATIVE_TO_GROUND",
               },
               orientation: {
